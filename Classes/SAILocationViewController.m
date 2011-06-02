@@ -35,7 +35,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+// テスト    
     locator = [[Location_Updater alloc] init:self];
 	
 	hereLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 120, 40, 14)];
